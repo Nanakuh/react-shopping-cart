@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ProductList from "./components/ProductList";
 import Cart from "./components/Cart";
-import Header from "./components/header";
+import Header from "./components/Header";
 import "./styles/tailwind.css"; // Asegúrate de que esté correctamente importado
 
 function App() {
@@ -79,7 +79,6 @@ function App() {
   return (
     <div>
       <Header totalItems={getTotalItems()} totalPrice={getTotalPrice()} />
-
       <ProductList addToCart={addToCart} />
       <Cart
         cart={cart}

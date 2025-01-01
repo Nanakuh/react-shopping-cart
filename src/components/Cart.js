@@ -9,7 +9,7 @@ function Cart({
 }) {
   return (
     <div className='bg-gray-50 p-6 rounded-lg shadow-lg mt-6'>
-      <h2 className='text-xl font-bold mb-4'>Carrito</h2>
+      <h2 className='text-xl font-bold mb-4'>Shopping cart</h2>
       <ul className='space-y-4'>
         {cart.map((item) => (
           <li
@@ -36,7 +36,7 @@ function Cart({
                 onClick={() => removeFromCart(item.id)}
                 className='bg-red-500 text-white py-1 px-2 rounded hover:bg-red-600'
               >
-                Eliminar
+                Delete
               </button>
             </div>
           </li>
@@ -46,7 +46,7 @@ function Cart({
         onClick={clearCart}
         className='mt-4 bg-yellow-500 text-white py-2 px-4 rounded hover:bg-yellow-600'
       >
-        Vaciar carrito
+        Empty shopping cart
       </button>
     </div>
   );

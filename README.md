@@ -42,11 +42,7 @@ npm run dev
 yarn dev
 ```
 
-This will start the application, and you can access it in your browser at:
-
-```
-http://localhost:5173
-```
+This will start the application.
 
 ## Build for Production
 
